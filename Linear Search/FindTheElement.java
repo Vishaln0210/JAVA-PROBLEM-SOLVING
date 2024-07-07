@@ -14,3 +14,11 @@ class FindTheElement {
         return false;
     }
 }
+
+
+//enhanced for loop 
+/*for (element : arr) {
+    if (element == 4) {
+        return true;
+    }
+}*/
