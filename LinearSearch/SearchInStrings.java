@@ -1,11 +1,11 @@
 public class SearchInStrings {
     public static void main(String[] args) {
-        String str = "vishal";
-        char charfind = 'o';
-        boolean ans = searchchar(str, charfind);
+        String name = "vishal";
+        char letter = 'i';
+        boolean ans = searchchar(name, letter);
         System.out.println(ans);
-
     }
+
     static boolean searchchar(String name, char letter) {
         if (name.length() == 0) {
             return false;

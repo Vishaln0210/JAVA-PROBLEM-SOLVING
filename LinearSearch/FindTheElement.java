@@ -7,7 +7,7 @@ class FindTheElement {
 
     static boolean find(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 4) {
+            if (arr[i] == 7) {
                 return true;
             }
         }
@@ -15,10 +15,11 @@ class FindTheElement {
     }
 }
 
-
-//enhanced for loop 
-/*for (element : arr) {
-    if (element == 4) {
-        return true;
-    }
-}*/
+// enhanced for loop
+/*
+ * for (element : arr) {
+ * if (element == 4) {
+ * return true;
+ * }
+ * }
+ */
