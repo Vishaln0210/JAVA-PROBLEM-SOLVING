@@ -7,8 +7,10 @@ class Solution {
                 nonZeroIndex++;
             }
         }
+        if(nums.length-1 >= nonzeroindex){
         for (int i = nonZeroIndex; i < nums.length; i++) {
             nums[i] = 0;
+        }
         }
     }
 }
